@@ -1,0 +1,51 @@
+* {
+  font-family: Helvetica;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-bottom: 1.5rem;
+  gap: 0.5rem;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+textarea { 
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: 1px solid #cbd5e1;
+}
+
+.counter {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.toggle {
+  background-color: #2563eb;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.toggle:hover{
+  background-color: #3b82f6;
+}
